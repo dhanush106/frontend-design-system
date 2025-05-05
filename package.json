@@ -7,7 +7,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "chromatic --project-token=<your-project-token>"
-
   },
   "dependencies": {
     "@react-theming/storybook-addon": "^1.1.10",

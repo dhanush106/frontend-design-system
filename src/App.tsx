@@ -7,6 +7,7 @@ import Toast from './components/Toast/Toast';
 import Modal from './components/Modal/Modal';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Sun, Moon } from 'lucide-react';
+import { Button } from './components/Modal/Button';
 
 function App() {
   const [theme, toggleTheme] = useDarkMode();
@@ -169,6 +170,7 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      <Button />
     </motion.div>
   );
 }

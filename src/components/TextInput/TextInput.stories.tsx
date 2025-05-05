@@ -96,7 +96,7 @@ export const Anatomy = {
   render: () => (
     <div className="grid gap-4">
       <div className="border rounded-lg p-4">
-        <h3 className="font-bold mb-2">Component Structure</h3>
+        <h3 className="font-bold mb-2 mt-2">Component Structure</h3>
         <ol className="list-decimal pl-5 space-y-2">
           <li>Label (required)</li>
           <li>Input container</li>
